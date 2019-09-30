@@ -6,6 +6,7 @@ public interface IStackInterface<T> {
   T top() throws StackUnderflowException;
   boolean isFull();
   boolean isEmpty();
+  String select(String phrase, String nextAction);
 
   int size();
 
